@@ -3,6 +3,7 @@
 //import structureDesignPattern.ProxyPattern.Solution.Client;
 //import structureDesignPattern.CompositePattern.Solution.FileSystemApp;
 import structureDesignPattern.FacadePattern.Solution.Client;
+import structureDesignPattern.FlyWeightPattern.Solution.Game;
 
 public static void main(String[] args) {
 //    Client client = new Client();
@@ -17,7 +18,10 @@ public static void main(String[] args) {
 //      FileSystemApp file = new FileSystemApp();
 //      FileSystemApp.execute();
 
-    Client client = new Client();
-    client.execute();
+//    Client client = new Client();
+//    client.execute();
+
+    Game game = new Game();
+    game.execute();
 
 }
