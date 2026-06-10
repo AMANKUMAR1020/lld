@@ -2,6 +2,9 @@
 //import structureDesignPattern.DecoratorPattern.Solution.PizzaApp;
 //import structureDesignPattern.ProxyPattern.Solution.Client;
 //import structureDesignPattern.CompositePattern.Solution.FileSystemApp;
+//import CreationalDesignPattern.AbstractFactoryPattern.Problem.Application;
+import CreationalDesignPattern.AbstractFactoryPattern.Solution.Application;
+import CreationalDesignPattern.AbstractFactoryPattern.Solution.UIFactory;
 import CreationalDesignPattern.FactoryDesignPattern.Solution.TransportService;
 import CreationalDesignPattern.SingletonPattern.Problem.WithoutSingletonPattern;
 import CreationalDesignPattern.SingletonPattern.Solution.SingletonPattern;
@@ -33,7 +36,13 @@ public static void main(String[] args) {
 //    SingletonPattern singletonPattern = new SingletonPattern();
 //    singletonPattern.execute();
 
-    TransportService transportService = new TransportService();
-    transportService.execute();
+//    TransportService transportService = new TransportService();
+//    transportService.execute();
+
+//    Application application = new Application();
+//    application.execute();
+
+      Application application = new Application();
+      application.execute();
 
 }

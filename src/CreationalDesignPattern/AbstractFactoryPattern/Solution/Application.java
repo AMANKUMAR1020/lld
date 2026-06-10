@@ -87,3 +87,22 @@ public class Application {
         app.renderUI();
     }
 }
+
+
+/*
+
+Client
+   |
+   v
+UIFactory
+   |
+   +----> WindowsFactory
+   |          |
+   |          +--> WindowsButton
+   |          +--> WindowsScrollBar
+   |
+   +----> MacOSFactory
+              |
+              +--> MacOSButton
+              +--> MacOSScrollBar
+*/
