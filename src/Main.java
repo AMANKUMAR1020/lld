@@ -4,8 +4,11 @@
 //import structureDesignPattern.CompositePattern.Solution.FileSystemApp;
 //import CreationalDesignPattern.AbstractFactoryPattern.Problem.Application;
 import CreationalDesignPattern.AbstractFactoryPattern.Solution.Application;
-import CreationalDesignPattern.AbstractFactoryPattern.Solution.UIFactory;
+//import CreationalDesignPattern.AbstractFactoryPattern.Solution.UIFactory;
+import CreationalDesignPattern.BuilderDesignPattern.Problem.WithoutBuilderPattern;
+import CreationalDesignPattern.BuilderDesignPattern.Solution.WithBuilderPattern;
 import CreationalDesignPattern.FactoryDesignPattern.Solution.TransportService;
+import CreationalDesignPattern.PrototypePattern.Problem.GameClientWithoutPrototype;
 import CreationalDesignPattern.SingletonPattern.Problem.WithoutSingletonPattern;
 import CreationalDesignPattern.SingletonPattern.Solution.SingletonPattern;
 import structureDesignPattern.FacadePattern.Solution.Client;
@@ -42,7 +45,16 @@ public static void main(String[] args) {
 //    Application application = new Application();
 //    application.execute();
 
-      Application application = new Application();
-      application.execute();
+//    Application application = new Application();
+//    application.execute();
+
+//    WithoutBuilderPattern withoutBuilderPattern = new WithoutBuilderPattern();
+//    withoutBuilderPattern.execute();
+
+//    WithBuilderPattern withBuilderPattern = new WithBuilderPattern();
+//    withBuilderPattern.execute();
+
+    GameClientWithoutPrototype gameClientWithoutPrototype = new GameClientWithoutPrototype();
+    gameClientWithoutPrototype.execute();
 
 }

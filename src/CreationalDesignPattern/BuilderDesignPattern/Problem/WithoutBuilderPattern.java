@@ -1,7 +1,10 @@
 package CreationalDesignPattern.BuilderDesignPattern.Problem;
 
 public class WithoutBuilderPattern {
-    public static void main(String[] args) {
+    public WithoutBuilderPattern(){
+        System.out.println("This is WithoutBuilderPattern Constructor");
+    }
+    public void execute() {
         House house = new House("Concrete","Wood","Shingles",true,true,false);
         //House house2 = new House("Concrete","Wood","Shingles");
         // Constructor Explosion -> Too Many Constructors
