@@ -3,6 +3,7 @@
 //import structureDesignPattern.ProxyPattern.Solution.Client;
 //import structureDesignPattern.CompositePattern.Solution.FileSystemApp;
 //import CreationalDesignPattern.AbstractFactoryPattern.Problem.Application;
+import BehaviourDesignPattern.MementoPattern.Solution.TextEditorMain;
 import CreationalDesignPattern.AbstractFactoryPattern.Solution.Application;
 //import CreationalDesignPattern.AbstractFactoryPattern.Solution.UIFactory;
 import CreationalDesignPattern.BuilderDesignPattern.Problem.WithoutBuilderPattern;
@@ -15,6 +16,11 @@ import structureDesignPattern.FacadePattern.Solution.Client;
 import structureDesignPattern.FlyWeightPattern.Solution.Game;
 
 public static void main(String[] args) {
+
+    TextEditorMain textEditorMain = new TextEditorMain();
+    textEditorMain.execute();
+
+
 //    Client client = new Client();
 //    client.execute();
 
@@ -54,7 +60,7 @@ public static void main(String[] args) {
 //    WithBuilderPattern withBuilderPattern = new WithBuilderPattern();
 //    withBuilderPattern.execute();
 
-    GameClientWithoutPrototype gameClientWithoutPrototype = new GameClientWithoutPrototype();
-    gameClientWithoutPrototype.execute();
+//    GameClientWithoutPrototype gameClientWithoutPrototype = new GameClientWithoutPrototype();
+//    gameClientWithoutPrototype.execute();
 
 }
